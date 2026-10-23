@@ -236,15 +236,11 @@ const Billings = () => {
             />
             <div>
               <h2 className="font-semibold text-emerald-900">
-                Demo bill completed successfully
+                 Sales bill generated successfully
               </h2>
-              <p className="mt-1 text-sm text-emerald-800">
-                {completedBill.billNumber} · {currency(completedBill.total)} ·{" "}
-                {completedBill.paymentMethod}
-              </p>
+             
               <p className="mt-1 text-xs text-emerald-700">
-                This is a frontend demo. The bill has not been saved to a
-                database.
+               This bill transaction record in transaction history.
               </p>
             </div>
           </div>
